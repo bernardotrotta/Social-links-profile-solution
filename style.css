@@ -1,0 +1,68 @@
+
+:root {
+    /* Primary Colors */
+    --green: hsl(75, 94%, 57%);
+    /* Neutral  */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: var(--off-black);
+    color: var(--white);
+}
+
+.card { 
+    background-color: var(--dark-grey);
+    padding: 32px;
+    border-radius: 16px;
+    margin: 0 auto; 
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--grey);
+    color: var(--white);
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: var(--green);
+    color: var(--dark-grey);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+}
+
+.attribution a{
+    color: var(--green);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--green);
+}
